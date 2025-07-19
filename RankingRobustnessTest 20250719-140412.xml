@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RankingRobustnessTest" project="MembershipRanking" tests="19" started="19" failures="11" errors="0" ignored="0">
+  <testsuite name="test.RankingRobustnessTest" time="0.013" displayname="RankingRobustnessTest" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]">
+    <testcase name="test_TC01" classname="test.RankingRobustnessTest" time="0.0" displayname="TC01 50000 15 -1" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC01()]"/>
+    <testcase name="test_TC02" classname="test.RankingRobustnessTest" time="0.0" displayname="TC02 50000 15 0" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC02()]"/>
+    <testcase name="test_TC03" classname="test.RankingRobustnessTest" time="0.0" displayname="TC03 50000 15 1" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC03()]"/>
+    <testcase name="test_TC04" classname="test.RankingRobustnessTest" time="0.0" displayname="TC04 50000 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC04()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC04(RankingRobustnessTest.java:39)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC05" classname="test.RankingRobustnessTest" time="0.0" displayname="TC05 50000 15 999" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC05()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC05(RankingRobustnessTest.java:45)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC06" classname="test.RankingRobustnessTest" time="0.0" displayname="TC06 50000 15 1000" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC06()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC06(RankingRobustnessTest.java:51)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC07" classname="test.RankingRobustnessTest" time="0.001" displayname="TC07 50000 15 1001" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC07()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC07(RankingRobustnessTest.java:57)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC08" classname="test.RankingRobustnessTest" time="0.001" displayname="TC08 50000 0 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC08()]"/>
+    <testcase name="test_TC09" classname="test.RankingRobustnessTest" time="0.002" displayname="TC09 50000 1 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC09()]">
+      <failure>
+        <expected>Silver</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Silver&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC09(RankingRobustnessTest.java:69)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC10" classname="test.RankingRobustnessTest" time="0.0" displayname="TC10 50000 2 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC10()]"/>
+    <testcase name="test_TC11" classname="test.RankingRobustnessTest" time="0.0" displayname="TC11 50000 30 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC11()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC11(RankingRobustnessTest.java:81)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC12" classname="test.RankingRobustnessTest" time="0.0" displayname="TC12 50000 31 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC12()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC12(RankingRobustnessTest.java:87)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC13" classname="test.RankingRobustnessTest" time="0.001" displayname="TC13 50000 32 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC13()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC13(RankingRobustnessTest.java:93)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC14" classname="test.RankingRobustnessTest" time="0.0" displayname="TC14 -1 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC14()]"/>
+    <testcase name="test_TC15" classname="test.RankingRobustnessTest" time="0.0" displayname="TC15 0 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC15()]"/>
+    <testcase name="test_TC16" classname="test.RankingRobustnessTest" time="0.0" displayname="TC16 1 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC16()]"/>
+    <testcase name="test_TC17" classname="test.RankingRobustnessTest" time="0.001" displayname="TC17 99999 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC17()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC17(RankingRobustnessTest.java:117)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC18" classname="test.RankingRobustnessTest" time="0.001" displayname="TC18 100000 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC18()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC18(RankingRobustnessTest.java:123)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC19" classname="test.RankingRobustnessTest" time="0.002" displayname="TC19 100001 15 500" uniqueid="[engine:junit-jupiter]/[class:test.RankingRobustnessTest]/[method:test_TC19()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingRobustnessTest.test_TC19(RankingRobustnessTest.java:129)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

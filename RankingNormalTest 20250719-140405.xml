@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RankingNormalTest" project="MembershipRanking" tests="13" started="13" failures="9" errors="0" ignored="0">
+  <testsuite name="test.RankingNormalTest" time="0.009" displayname="RankingNormalTest" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]">
+    <testcase name="test_TC01" classname="test.RankingNormalTest" time="0.0" displayname="TC01 1 2 -1 ระดับ Standard" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC01()]"/>
+    <testcase name="test_TC02" classname="test.RankingNormalTest" time="0.0" displayname="TC02 1 2 0 ระดับ Standard" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC02()]"/>
+    <testcase name="test_TC03" classname="test.RankingNormalTest" time="0.0" displayname="TC03 1 2 1 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC03()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC03(RankingNormalTest.java:31)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC04" classname="test.RankingNormalTest" time="0.0" displayname="TC04 1 2 500 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC04()]">
+      <failure>
+        <expected>ระดับ Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;ระดับ Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC04(RankingNormalTest.java:36)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC05" classname="test.RankingNormalTest" time="0.0" displayname="TC05 1 2 999 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC05()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC05(RankingNormalTest.java:41)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC06" classname="test.RankingNormalTest" time="0.001" displayname="TC06 1 -1 1 ระดับ Silver" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC06()]">
+      <failure>
+        <expected>Silver</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Silver&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC06(RankingNormalTest.java:46)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC07" classname="test.RankingNormalTest" time="0.002" displayname="TC07 1 1 1 ระดับ Silver" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC07()]">
+      <failure>
+        <expected>Silver</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Silver&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC07(RankingNormalTest.java:51)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC08" classname="test.RankingNormalTest" time="0.001" displayname="TC08 1 15 1 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC08()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC08(RankingNormalTest.java:56)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC09" classname="test.RankingNormalTest" time="0.0" displayname="TC09 1 30 1 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC09()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC09(RankingNormalTest.java:61)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC10" classname="test.RankingNormalTest" time="0.0" displayname="TC10 -1 2 1 ระดับ Standard" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC10()]"/>
+    <testcase name="test_TC11" classname="test.RankingNormalTest" time="0.0" displayname="TC11 0 2 1 ระดับ Standard" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC11()]"/>
+    <testcase name="test_TC12" classname="test.RankingNormalTest" time="0.0" displayname="TC12 50000 2 1 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC12()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC12(RankingNormalTest.java:76)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+    <testcase name="test_TC13" classname="test.RankingNormalTest" time="0.001" displayname="TC13 99999 2 1 ระดับ Gold" uniqueid="[engine:junit-jupiter]/[class:test.RankingNormalTest]/[method:test_TC13()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Standard</actual>
+                        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at test.RankingNormalTest.test_TC13(RankingNormalTest.java:81)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      
+      
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>
